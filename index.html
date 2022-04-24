@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>The Typing Game</title>
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!-- Overall Wrapper -->
+        <div class="wrapper">
+            <!-- Title -->
+            <div class="title-container">
+                <h1>The Typing Game</h1>
+            </div>
+
+            <!-- Instruction -->
+            <div class="instruction-container">
+                <p>
+                    Instruction: <br>
+                    Type as many words as you can until the time runs out!
+                </p>
+            </div>
+
+            <!-- Timer and Score -->
+            <div class="timer-score-container">
+                <!-- Timer -->
+                <div class="timer-container">
+                    <h2>Timer</h2>
+                    <h2 id="timer">0</h2>
+                </div>
+
+                <!-- Score -->
+                <div class="score-container">
+                    <h2>Score</h2>
+                    <h2 id="score">0</h2>
+                </div>
+            </div>
+
+            <!-- Start Button -->
+            <div class="start-container">
+                <button id="start">
+                    Start
+                </button>
+            </div>
+
+            <!-- Word Display -->
+            <div class="word-container">
+                <h2 id="words">
+                    <span id="typed"></span><span id="notTyped">Click the Start Button</span>
+                </h2>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>

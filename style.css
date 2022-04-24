@@ -1,0 +1,110 @@
+/* Font - Ubuntu */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+/* Background Color */
+html{
+    background-image: linear-gradient(to bottom, RGB(237, 132, 240) , RGB(140, 25, 149));
+    height: fit-content;
+    min-height: 100%;
+    min-width: 55em;
+}
+
+/* Wrapper */
+.wrapper{
+    background-color: RGB(252, 235, 212);
+    border-radius: 2em;
+    margin: 3em auto;
+    width: 50em;
+}
+
+/* Title */
+.title-container{
+    background-color: RGB(255, 79, 83);
+    border-radius: 2em 2em 0 0;
+    display: block;
+    padding: 2px;
+}
+
+.title-container h1{
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+
+/* Instruction */
+.instruction-container{
+    color: RGB(255, 79, 83);
+    display: block;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    margin: 1em;
+    text-align: center;
+}
+
+/* Timer & Score */
+.timer-score-container{
+    display: flex;
+    font-family: 'Ubuntu', sans-serif;
+    justify-content: space-around;
+    margin: 2em;
+}
+
+.timer-container, .score-container{
+    color: RGB(142, 44, 144);
+    text-align: center;
+}
+
+.timer-score-container h2{
+    margin: 2px;
+}
+
+/* Start Button */
+.start-container{
+    display: block;
+    text-align: center;
+}
+
+.start-container button{
+    background-color: RGB(255, 79, 83);
+    border: 0;
+    border-radius: 10px;
+    box-shadow: RGB(100, 100, 100) 3px 3px 3px;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2rem;
+    transition: background-color 0.1s;
+    padding: 10px 30px;
+}
+
+/* Button Hover and Click Transition */
+.start-container button:hover:not(:disabled){
+    background-color: RGB(232, 50, 50);
+    transition: background-color 0.1s;
+}
+
+.start-container button:active:not(:disabled){
+    box-shadow: RGBA(255, 255, 255, 255) 0 0 0;
+    background-color: RGB(215, 30, 30);
+}
+
+/* Disabled Button Design */
+.start-container button:disabled{
+    background-color: RGB(255, 100, 100);
+    color: RGB(220, 220, 220);
+}
+
+/* Word */
+.word-container{
+    display: block;
+    padding: 20px 0 50px;
+}
+
+.word-container h2{
+    font-family: monospace;
+    font-size: 3rem;
+    text-align: center;
+}
+
+#typed{
+    color: RGB(255, 79, 83);
+}
